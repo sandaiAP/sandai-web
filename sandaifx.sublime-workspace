@@ -1,0 +1,1370 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"contactA",
+				"contactArea02\tabc"
+			],
+			[
+				"st",
+				"sticky\tposition"
+			],
+			[
+				"space",
+				"space-around\tjustify-content"
+			],
+			[
+				"pri",
+				"print_r〔function〕"
+			],
+			[
+				"video",
+				"videosData\tabc"
+			],
+			[
+				"border",
+				"border-box\tbox-sizing"
+			],
+			[
+				"cate",
+				"categories\tabc"
+			],
+			[
+				"ar",
+				"arg_categories\tabc"
+			],
+			[
+				"get_the",
+				"get_the_ID\t(index.php)"
+			],
+			[
+				"ca",
+				"category\tabc"
+			],
+			[
+				"this",
+				"this_category\tabc"
+			],
+			[
+				"h",
+				"hidden\toverflow"
+			],
+			[
+				"s",
+				"sticky\tposition"
+			],
+			[
+				"user",
+				"user_id\tabc"
+			],
+			[
+				"Fa",
+				"FavoCompany\tabc"
+			],
+			[
+				"o",
+				"overflow-x\tproperty"
+			],
+			[
+				"the_thu",
+				"the_post_thumbnail_url"
+			],
+			[
+				"em",
+				"employment_status_flg\tabc"
+			],
+			[
+				"windo",
+				"windowHeight\tabc"
+			],
+			[
+				"align",
+				"align-items\tabc"
+			],
+			[
+				"sub",
+				"submit\t(main.css)"
+			],
+			[
+				"sc",
+				"scout_mail\tabc"
+			],
+			[
+				"Com",
+				"CompanyPlan\tabc"
+			],
+			[
+				"Jo",
+				"JobsBackground\tabc"
+			],
+			[
+				"font-",
+				"font-14\t(header.php)"
+			],
+			[
+				"over",
+				"overflow-x\tabc"
+			],
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
+				"nh",
+				"nth-child\tabc"
+			],
+			[
+				"Company",
+				"CompanyPhoto\tabc"
+			],
+			[
+				"block",
+				"blockquote\tabc"
+			],
+			[
+				"just",
+				"justify-content\tabc"
+			],
+			[
+				"cre",
+				"created_at\tabc"
+			],
+			[
+				"Compa",
+				"CompanyPlan\tabc"
+			],
+			[
+				"fle",
+				"flex-start\tjustify-content"
+			],
+			[
+				"text",
+				"textarea\tTag"
+			],
+			[
+				"Compna",
+				"CompanyPhoto\tabc"
+			],
+			[
+				"Comp",
+				"CompanyPhoto\tabc"
+			],
+			[
+				"Job",
+				"JobOffer"
+			],
+			[
+				"job_",
+				"job_offer\tabc"
+			],
+			[
+				"sto",
+				"storage\t(TagsChildController.php)"
+			],
+			[
+				"posts",
+				"posts_photo\tabc"
+			],
+			[
+				"Po",
+				"PostPhoto〔namespace〕"
+			],
+			[
+				"form-con",
+				"form-control\tabc"
+			],
+			[
+				"che",
+				"checked\tabc"
+			],
+			[
+				"fun",
+				"function\tabc"
+			],
+			[
+				"or",
+				"orderBy\tabc"
+			],
+			[
+				"company",
+				"company_photo"
+			],
+			[
+				"comp",
+				"company_photo\tabc"
+			],
+			[
+				"compan",
+				"company_photo"
+			],
+			[
+				"com",
+				"company_photo\tabc"
+			],
+			[
+				"job_of",
+				"job_offer_array\tabc"
+			],
+			[
+				"compa",
+				"company_photo\tabc"
+			],
+			[
+				"job_o",
+				"job_offer"
+			],
+			[
+				"where",
+				"whereHas\tabc"
+			],
+			[
+				"key",
+				"keyword\tabc"
+			],
+			[
+				"company_info",
+				"company_info_id\tabc"
+			],
+			[
+				"req",
+				"request\tabc"
+			],
+			[
+				"Sc",
+				"Scout::where\tabc"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"re",
+				"request\tabc"
+			],
+			[
+				"fore",
+				"foreach\tblade-foreach"
+			],
+			[
+				"load",
+				"loadImg\tabc"
+			],
+			[
+				"app",
+				"appendTo〔function〕"
+			],
+			[
+				"ref",
+				"refreshLayer\tabc"
+			],
+			[
+				"tou",
+				"touchstart\tabc"
+			],
+			[
+				"unde",
+				"undefined〔keyword〕"
+			],
+			[
+				"pare",
+				"parents\t.parents()"
+			],
+			[
+				"i",
+				"images/"
+			],
+			[
+				"sa",
+				"save-file-option.png\tw:512 h:512"
+			],
+			[
+				"m",
+				"marry_thumb.png\tw:270 h:594"
+			],
+			[
+				"war",
+				"warlordVal\tabc"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"tax",
+				"taxonomy\tabc"
+			],
+			[
+				"csv",
+				"csvArr\tabc"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"overflo",
+				"overflow-x\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"ju",
+				"justify-content\tproperty"
+			],
+			[
+				"ori",
+				"original"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"hsa",
+				"hasClass\t.hasClass()"
+			],
+			[
+				"scrool",
+				"scrollTop〔function〕"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ov",
+				"overflow-y"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"wp_e",
+				"wp_enqueue_scripts"
+			],
+			[
+				"var_",
+				"var_dump〔function〕"
+			],
+			[
+				"is_ar",
+				"is_archive"
+			],
+			[
+				"thum",
+				"the_post_thumbnail"
+			],
+			[
+				"post_",
+				"post_custom"
+			],
+			[
+				"comap",
+				"compare_cat"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"flx",
+				"flex-wrap\tproperty"
+			],
+			[
+				"overf",
+				"overflow-y\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/app/Http/Controllers/TestController.php",
+			"settings":
+			{
+				"buffer_size": 2218,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/routes/api.php",
+			"settings":
+			{
+				"buffer_size": 770,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/app/Http/Controllers/Test2Controller.php",
+			"settings":
+			{
+				"buffer_size": 2621,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 4351,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				],
+				[
+					"Packages/Compass/Compass.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"his",
+				"Local History: Snapshots"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Build With: SASS"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"diff",
+				"Code Folding: Unfold All"
+			],
+			[
+				"di",
+				"Diffy Compare"
+			],
+			[
+				"com",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"compai",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"subli",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			],
+			[
+				"mer",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"merge",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"COmpass",
+				"Build With: Compass"
+			],
+			[
+				"List",
+				"Laravel Artisan 5: List"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 445.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kiddman/Local Sites/awmopro",
+		"/Users/kiddman/Local Sites/awmopro/app",
+		"/Users/kiddman/Local Sites/awmopro/app/app",
+		"/Users/kiddman/Local Sites/awmopro/app/app/Http",
+		"/Users/kiddman/Local Sites/awmopro/app/app/Http/Controllers",
+		"/Users/kiddman/Local Sites/awmopro/app/app/Http/Requests",
+		"/Users/kiddman/Local Sites/awmopro/app/resources",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/views",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/views/test",
+		"/Users/kiddman/Local Sites/awmopro/app/routes"
+	],
+	"file_history":
+	[
+		"/Users/kiddman/Local Sites/awmopro/app/app/Http/Requests/StoreTest.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/assets/css/main.scss",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/footer.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/assets/js/script.js",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/assets/css/base.css",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/functions.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/header.php",
+		"/Users/kiddman/Local Sites/python/youtube/youtube/search.py",
+		"/Users/kiddman/Dr.Adrianus Koene.txt",
+		"/Users/kiddman/角地俊哉.txt",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-partner.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-contact_partner.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-contact.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-confirm_transfer.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-confirm_staff.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-confirm_partner.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-confirm_audition.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-confirm.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-complete.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-complete-transfer.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-complete-staff.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-complete-partner.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-complete-audition.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-audition_transfer.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-audition_staff.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-audition_paula.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-audition.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/assets/js/common.js",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-audition_poula.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-about.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-contact_vtuber.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/index.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/assets/idias/style.scss",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-recruit.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/assets/js/app.js",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/barcode",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/views/auth/login.blade.php",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/js/views/UserDetail.vue",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/js/views/UserEdit.vue",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/js/router.js",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/js/views/User.vue",
+		"/Users/kiddman/Local Sites/awmopro/app/.env",
+		"/Users/kiddman/Local Sites/awmopro/app/config/services.php",
+		"/Users/kiddman/Local Sites/awmopro/app/routes/api.php",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/js/views/Home.vue",
+		"/Users/kiddman/Local Sites/awmopro/app/database/migrations/2020_04_07_120041_add_column_users_table.php",
+		"/Users/kiddman/Local Sites/awmopro/app/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/views/welcome.blade.php",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/js/views/UserEdit.vue.js",
+		"/Users/kiddman/Local Sites/awmopro/app/routes/web.php",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/js/views/NotFound.vue",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/js/views/About.vue",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/views/layouts/app.blade.php",
+		"/Users/kiddman/Local Sites/awmopro/app/app/Http/Controllers/Auth/LoginController.php",
+		"/Users/kiddman/Local Sites/awmopro/app/resources/js/app.js",
+		"/Users/kiddman/Local Sites/awmopro/app/database/seeds/UsersTableSeeder.php",
+		"/Users/kiddman/Local Sites/awmopro/app/database/seeds/DatabaseSeeder.php",
+		"/Users/kiddman/Local Sites/awmopro/appspec.yml",
+		"/Users/kiddman/Local Sites/awmopro/app/database/migrations/2020_03_21_120041_add_column_users_table.php",
+		"/Users/kiddman/Local Sites/awmopro/app/app/Http/Controllers/HomeController.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/inc/texts.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/inc/content-youtube.php",
+		"/Users/kiddman/Documents/var/www/barcode/about.html",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/inc/youtube-list.php",
+		"/Users/kiddman/Documents/var/www/barcode/index.html",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/assets/css/style.css",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page-home.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/themes/blankslate/page.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-content/plugins/shortcut/shortcut.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-includes/wp-db.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/wp-config.php",
+		"/Users/kiddman/Local Sites/barcode/app/public/.htaccess",
+		"/Volumes/Macintosh HD/Users/kiddman/Documents/var/project/anchorZ/anchorz.co.jp/source/official/wp-content/themes/blankslate/assets/css/style.css",
+		"/Volumes/Macintosh HD/Users/kiddman/Documents/var/project/anchorZ/anchorz.co.jp/source/official/wp-content/themes/blankslate/inc/texts.php",
+		"/Volumes/Macintosh HD/Users/kiddman/Documents/var/project/anchorZ/anchorz.co.jp/source/official/.htaccess",
+		"/Volumes/Macintosh HD/Users/kiddman/Documents/var/project/anchorZ/anchorz.co.jp/source/official/wp-content/themes/blankslate/page-confirm.php",
+		"/Users/kiddman/Downloads/anchorz_wp6.sql",
+		"/Volumes/Macintosh HD/Users/kiddman/Documents/var/project/anchorZ/anchorz.co.jp/source/official/wp-content/themes/blankslate/functions.php",
+		"/Volumes/Macintosh HD/Users/kiddman/Documents/var/project/anchorZ/anchorz.co.jp/source/official/wp-content/themes/blankslate/inc/links.php",
+		"/Volumes/Macintosh HD/Users/kiddman/Documents/var/project/anchorZ/anchorz.co.jp/source/official/wp-blog-header.php",
+		"/Volumes/Macintosh HD/Users/kiddman/Documents/var/project/anchorZ/anchorz.co.jp/source/official/wp-config.php",
+		"/Users/kiddman/Documents/var/project/anchorZ/anchorz.co.jp/source/official/.htaccess",
+		"/Users/kiddman/Documents/var/project/anchorZ/anchorz.co.jp/source/official/index.php",
+		"/Users/kiddman/Documents/var/www/barcode/inc/ajax_modal.php",
+		"/Users/kiddman/Documents/var/www/barcode/inc/script.php",
+		"/Users/kiddman/Documents/var/www/barcode/assets/scripts.js",
+		"/Users/kiddman/Documents/var/www/barcode/assets/main.min.js",
+		"/Users/kiddman/Documents/var/www/barcode/inc/links.php",
+		"/Users/kiddman/Library/Application Support/Sublime Text 3/Packages/User/php.sublime-build",
+		"/Users/kiddman/Library/Caches/Transmit/C06BACE0-24CC-40E7-995A-369D710B9F3D/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/page-confirm.php",
+		"/Users/kiddman/Library/Caches/Transmit/99D7B416-8209-49B1-A7FF-26302C3E402D/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/inc/links.php",
+		"/Users/kiddman/Library/Caches/Transmit/FDC0443E-4271-4FE0-8DAD-9C8BA09D5111/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/inc/links.php",
+		"/Users/kiddman/Library/Caches/Transmit/1A5E2BD9-34F8-4F19-90D7-8F74418E73C0/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/page-contact.php",
+		"/Users/kiddman/Library/Caches/Transmit/201398D3-73C8-47D2-8189-8B700FCC5EF7/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/page-confirm.php",
+		"/Users/kiddman/Library/Caches/Transmit/013E43B9-F156-4778-84B2-FB2BEE9700B0/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/assets/css/contact.css",
+		"/Users/kiddman/Library/Caches/Transmit/0386902B-1DB6-485F-ADFC-95673C7A03BC/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/page-confirm.php",
+		"/Users/kiddman/Library/Caches/Transmit/78D03B95-30FA-4FC0-ADB7-F29DA5FBD6C9/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/assets/css/contact.css",
+		"/Users/kiddman/Library/Caches/Transmit/8A0AE0BF-4B6C-4DFE-BE29-F423FF37B544/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/footer.php",
+		"/Users/kiddman/Library/Caches/Transmit/C613899A-082D-4BB3-9E8A-2955FC3F2875/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/footer.php",
+		"/Users/kiddman/Library/Caches/Transmit/CC572815-00F8-4CB6-837C-C4B47D99FF1D/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/inc/links.php",
+		"/Users/kiddman/Library/Caches/Transmit/0579DD6E-4A55-45D2-AD87-717E2B7A9505/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/inc/links.php",
+		"/Users/kiddman/Library/Caches/Transmit/8D0CC4F5-E33D-4A9B-8BE3-F5813B803C62/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/page-company.php",
+		"/Users/kiddman/Library/Caches/Transmit/5BCD889E-DD7B-433D-8CB5-165EACB1475E/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/inc/links.php",
+		"/Users/kiddman/Library/Caches/Transmit/6E1E2AE9-ABF9-4061-878E-318618DDA8A2/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/official/wp-content/themes/blankslate/header.php",
+		"/Users/kiddman/Library/Caches/Transmit/0300556E-B2CB-4966-9A58-4C3EC2BB018B/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/wp-content/themes/blankslate_official/assets/css/style.css",
+		"/Users/kiddman/Documents/var/www/barcode/index.php",
+		"/Users/kiddman/Documents/var/www/barcode/inc/side.php",
+		"/Users/kiddman/Documents/var/www/barcode/about.php",
+		"/Users/kiddman/Documents/var/www/barcode/inc/texts.php",
+		"/Users/kiddman/Documents/var/www/barcode/inc/seo.php",
+		"/Users/kiddman/Documents/var/www/barcode/inc/head.php",
+		"/Users/kiddman/Documents/var/www/barcode/side.php",
+		"/Users/kiddman/Documents/var/www/barcode/.htaccess",
+		"/Users/kiddman/Documents/var/www/barcode/inc/ajax.php",
+		"/Users/kiddman/Library/Caches/Transmit/2B0F5BA2-5AD2-4D24-BD9C-0DAFDA33E673/shortcut.sakura.ne.jp/home/shortcut/www/honokakanayama/index.html",
+		"/Users/kiddman/Documents/var/website/etonmessy/assets/style.css",
+		"/Users/kiddman/Documents/var/website/etonmessy/index.html",
+		"/Users/kiddman/Documents/var/website/etonmessy/assets/main.min.js",
+		"/Users/kiddman/Library/Caches/Transmit/76DEDC41-F330-4E75-B559-9FF24BD0CD10/shortcut.sakura.ne.jp/home/shortcut/www/barcode/assets/style.css",
+		"/Users/kiddman/Documents/var/website/etonmessy/assets/scripts.js",
+		"/Users/kiddman/Library/Caches/Transmit/82938F81-A5DD-4ABD-B69B-AF3FD24DBD10/ftp21.gmoserver.jp/aitec-co.jp/wp/wp-content/themes/blankslate/page-home.php",
+		"/Users/kiddman/Library/Caches/Transmit/DE03DED0-3B62-41A4-B8D5-A7289072CFCF/shortcut.sakura.ne.jp/home/shortcut/www/honokakanayama/index.html",
+		"/Users/kiddman/Library/Caches/Transmit/7A31EB63-F1DB-4ED7-AD10-1ADBC5A7B7FB/shortcut.sakura.ne.jp/home/shortcut/www/honokakanayama/lib/style.css",
+		"/Users/kiddman/Library/Caches/Transmit/C9F1A776-DC8C-4F67-8701-48C832E4A24B/shortcut.sakura.ne.jp/home/shortcut/www/honokakanayama/index.html",
+		"/Users/kiddman/Library/Caches/Transmit/0AA0A88B-73FF-408A-A8A5-68CD81CD4AC6/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/wp-content/themes/blankslate/page.php",
+		"/Users/kiddman/Library/Caches/Transmit/04272E55-78FB-48D5-8B8A-FED389624514/sv8899.xserver.jp/anchorz.xsrv.jp/public_html/wp-content/themes/blankslate/archive.php",
+		"/Users/kiddman/Library/Caches/Transmit/7553D5F1-DDE6-4016-A8E3-F5806AF93827/sv8899.xserver.jp/anchorz.co.jp/public_html/dz/wp-content/themes/blankslate/archive.php",
+		"/Users/kiddman/Library/Caches/Transmit/B2593E44-6FAF-4FE3-B9DB-9C1CF6055489/sv8899.xserver.jp/anchorz.co.jp/public_html/dz/wp-content/themes/blankslate/page.php"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 91.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"StoreBook",
+			"Book",
+			"Book::",
+			"$book",
+			"book",
+			"Book",
+			"book",
+			"books",
+			"Book",
+			"book",
+			"Book",
+			"book",
+			"Book",
+			"book",
+			"Book",
+			"book",
+			"Book",
+			"book",
+			"Book",
+			"book",
+			"Book",
+			"book",
+			"Book",
+			"book",
+			"Book"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/app/Http/Controllers/TestController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								69
+							]
+						],
+						"settings":
+						{
+							"SL.31.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.htmltidy.Highlights.|9c105405a8cabac4d0fc87c00cf18bfc56d32a868328f93776ccd82bd1b59bde|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/routes/api.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								743,
+								748
+							]
+						],
+						"settings":
+						{
+							"SL.36.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.htmltidy.Highlights.|41c56edb8c9c6f3872f5b9c9f2335b72df936a48e7ff608d97fd33feaeb2e55f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										748,
+										749
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										741,
+										742
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"git_gutter_is_enabled": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/app/Http/Controllers/Test2Controller.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								676,
+								676
+							],
+							[
+								1644,
+								1644
+							]
+						],
+						"settings":
+						{
+							"SL.37.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.htmltidy.Highlights.|6a9d093d1c1eaa2348a0c46b96614ffc46d1a3a4fdc93dbf9ccad1899a89fd39|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										685,
+										686
+									],
+									"2":
+									[
+										1658,
+										1659
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									],
+									"2":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										666,
+										667
+									],
+									"2":
+									[
+										1634,
+										1635
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"git_gutter_is_enabled": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3313,
+								3313
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										75,
+										76
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2181.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 104.0
+	},
+	"output.exec":
+	{
+		"height": 82.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.summary-panel":
+	{
+		"height": 104.0
+	},
+	"pinned_build_system": "Packages/User/php.sublime-build",
+	"project": "awmopro.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sns",
+				"~/Library/Caches/Transmit/411C135D-56A2-4423-A4C0-C8847ED549A9/ftp-tenguinc.heteml.net/ad/shirokadeeen2/css/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
