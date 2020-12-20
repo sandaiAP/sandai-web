@@ -14,79 +14,24 @@ pass sanidaiFX00
 sanidai-web.com
 
 
+PHP 7.3.5
+nginx
+mysql 8.0.16
+
+
 # 参考
 
 Laravel SanctumとVue.jsによるSPA認証
 https://noumenon-th.net/programming/2020/05/26/sanctum/
 
-#error
-cross-env: not found
-https://qiita.com/Yorinton/items/fd9dae33c6748abcdfbc
+ssh-keygen -t rsa
 
-Cannot find module 'webpack/lib/RequestShortener'
-webpack -v
-npm uninstall -g webpack
-npm i webpack -g; npm link webpack --save-dev
+root
+/usr/share/nginx/html
 
-webpack-cli/bin/cli.js:93 throw err;
-Error: Cannot find module 'resolve'
+id_rsa
+sandaisandai
 
-rm -rf node_modules
-rm package-lock.json yarn.lock
-npm cache clear --force
-npm install
-
-# Log
-
-composer create-project laravel/laravel sanctum-project --prefer-dist
-chmod -R 777 storage
-chmod -R 777 bootstrap/cache
-
-composer require encore/laravel-admin
-php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
-
-.env
-database.php
-データベースの編集
-
-php artisan admin:install
-
-## データベース作成（migration）
-
-php artisan make:migration create_staffs_table --create=staffs
-php artisan make:migration create_customers_table --create=customers
-php artisan make:migration create_customer_details_table --create=customer_details
-
-## モデル作成
-## コントローラー作成
-
-php artisan make:model Models\\Staff
-php artisan admin:make StaffController --model=App\\Models\\Staff
-
-### RLとなる部分
-- index（一覧表示）
-- show（詳細表示）
-- edit（編集）
-- create（新規作成）
-
-### メソッド
-- grid（一覧表示に使うメソッド）
-- detail（詳細表示に使うメソッド）
-- * form（編集・作成に使うメソッド）
-
-
-## ルーティング設定
-/app/app/Admin/routes.php
-
-
-## 日本語化
-/app/config/app.php
-
-## リレーションテーブル作成
-php artisan make:model Models\\Customer
-
-## Laravel-adminでリレーションのあるテーブルを表示する
-php artisan admin:make CustomerController --model=App\\Models\\Customer
-
-## ルーティング設定
-$router->resource('customers', CustomerController::class);
+-----BEGIN OPENSSH PRIVATE KEY-----
+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
+-----END OPENSSH PRIVATE KEY-----
