@@ -111,21 +111,20 @@ class PointsController extends AdminController
         $form->saving(function (Form $form) {
 
             $points = Points::where('user_id',$form->user_id)->first();
-            $formpoint = (int) $form->point;
-            $now = Carbon::now();
 
-            if(is_null($formpoint)){
-                $formpoint = 0;
-            }
+            ### データのnull問題対応ー＞完了
+            $cpoint = is_null($points) ? 0 : $points->point;
+            $formpoint = is_null($form->point) ? 0 : (int) $form->point;
+            $now = Carbon::now();
 
             // ポイント合計値
             if( $form->categories == 'deposit' ){
 
-                $sumpoints = $points->sum('point', $formpoint);
+                $sumpoints = $cpoint + $formpoint;
 
             }elseif($form->categories == 'withdrawal'){
 
-                $sumpoints = $points->point - $formpoint;
+                $sumpoints = $cpoint - $formpoint;
 
             }else{
                 $sumpoints = 0;
@@ -143,10 +142,4 @@ class PointsController extends AdminController
 
         return $form;
     }
-    // public function update($id){
-    //     $user_id=Admin::user()->id;
-    //     $book = Points::where('user_id', $user_id)->get(['id', 'point'])->first();
-    //     $book->point = $this->point;
-    //     $book->update();
-    // }
 }
