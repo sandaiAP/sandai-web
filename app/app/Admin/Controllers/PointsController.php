@@ -6,9 +6,13 @@ use App\Models\Points;
 use App\Models\PointLogs;
 use Encore\Admin\Facades\Admin;
 use Encore\Admin\Controllers\AdminController;
+use Encore\Admin\Layout\Content;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
 use Encore\Admin\Show;
+use Illuminate\Validation\Rule;
+use Encore\Admin\Widgets\Box;
+use Carbon\Carbon;
 
 class PointsController extends AdminController
 {
@@ -19,6 +23,17 @@ class PointsController extends AdminController
      */
     protected $title = 'Points';
 
+    public function index(Content $content)
+    {
+
+        $html = "<h3>"."ポイント合計"."</h3>";
+
+        return $content
+            ->header('ポイント')
+            ->description($html)
+            ->body($this->grid());
+    }
+
     /**
      * Make a grid builder.
      *
@@ -27,16 +42,18 @@ class PointsController extends AdminController
     protected function grid()
     {
         $grid = new Grid(new PointLogs());
+
         $grid->disableActions();
         $grid->disableColumnSelector();
         $grid->disableExport();
 
+        $grid->column('id', __('ID'));
         $grid->column('created_at', __('申請日時'))->date('Y-m-d G:i:s');
         $grid->column('updated_at', __('更新日時'))->date('Y-m-d G:i:s');
         $grid->column('categories', __('CATEGORIES'))->display(function () {
 
             $r = '入金';
-            if($this->categories == 'widthdrawal'){
+            if($this->categories == 'withdrawal'){
                 $r = '出金';
             }
             return $r;
@@ -50,6 +67,7 @@ class PointsController extends AdminController
             return $r;
         });;
         $grid->column('point', __('POINT'));
+
 
         return $grid;
     }
@@ -83,13 +101,52 @@ class PointsController extends AdminController
 
         $user_id=Admin::user()->id;
 
+        // 入金/出金処理用
         $form = new Form(new PointLogs());
-
         $form->hidden('user_id','USERID')->value($user_id);
         $form->number('point', __('POINT'));
         $form->radio('categories')->options(['deposit' => '入金', 'withdrawal'=> '出金'])->default('deposit');
         $form->hidden('status', 'status')->value('untreated');
 
+        $form->saving(function (Form $form) {
+
+            $points = Points::where('user_id',$form->user_id)->first();
+            $formpoint = (int) $form->point;
+            $now = Carbon::now();
+
+            if(is_null($formpoint)){
+                $formpoint = 0;
+            }
+
+            // ポイント合計値
+            if( $form->categories == 'deposit' ){
+
+                $sumpoints = $points->sum('point', $formpoint);
+
+            }elseif($form->categories == 'withdrawal'){
+
+                $sumpoints = $points->point - $formpoint;
+
+            }else{
+                $sumpoints = 0;
+            }
+
+            // insert
+            Points::create([
+                'user_id' => $form->user_id,
+                'point' => $sumpoints,
+                'created_at' => $now,
+                'updated_at' => $now
+            ]);
+
+        });
+
         return $form;
     }
+    // public function update($id){
+    //     $user_id=Admin::user()->id;
+    //     $book = Points::where('user_id', $user_id)->get(['id', 'point'])->first();
+    //     $book->point = $this->point;
+    //     $book->update();
+    // }
 }
