@@ -43,7 +43,9 @@ class PointsController extends AdminController
         $grid->column('updated_at', __('更新日時'))->date('Y-m-d G:i:s');
         $grid->column('categories', __('CATEGORIES'))->display(function () {
 
-            $r = '入金';
+            if($this->categories == 'deposit'){
+                $r = '入金';
+            }
             if($this->categories == 'withdrawal'){
                 $r = '出金';
             }
@@ -51,8 +53,10 @@ class PointsController extends AdminController
         });
         $grid->column('status', __('STATUS'))->display(function () {
 
-            $r = '申請中';
-            if($this->categories == 'processed'){
+            if($this->status == 'untreated'){
+                $r = '申請中';
+            }
+            if($this->status == 'processed'){
                 $r = '手続き完了';
             }
             return $r;

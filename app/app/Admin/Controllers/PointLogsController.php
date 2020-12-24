@@ -3,6 +3,7 @@
 namespace App\Admin\Controllers;
 
 use App\Models\PointLogs;
+use Encore\Admin\Facades\Admin;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -28,8 +29,27 @@ class PointLogsController extends AdminController
 
         $grid->column('created_at', __('申請日時'))->date('Y-m-d G:i:s');
         $grid->column('updated_at', __('更新日時'))->date('Y-m-d G:i:s');
-        $grid->column('categories', __('CATEGORIES'));
-        $grid->column('status', __('STATUS'));
+        $grid->column('categories', __('CATEGORIES'))->display(function () {
+
+            if($this->categories == 'deposit'){
+                $r = '入金';
+            }
+            if($this->categories == 'withdrawal'){
+                $r = '出金';
+            }
+            return $r;
+        });
+        $grid->column('status', __('STATUS'))->display(function () {
+
+            if($this->status == 'untreated'){
+                $r = '申請中';
+            }
+            if($this->status == 'processed'){
+                $r = '手続き完了';
+            }
+            return $r;
+        });;
+
         $grid->column('id', __('ID'));
         $grid->column('user_id', __('USERID'));
         $grid->column('point', __('POINT'));
@@ -72,6 +92,7 @@ class PointLogsController extends AdminController
         $form->hidden('user_id','USERID')->value($user_id);
         $form->number('point', __('POINT'));
         $form->radio('categories')->options(['deposit' => '入金', 'withdrawal'=> '出金'])->default('deposit');
+        $form->radio('status')->options(['untreated' => '未処理', 'processed'=> '処理済'])->default('deposit');
 
         return $form;
     }
