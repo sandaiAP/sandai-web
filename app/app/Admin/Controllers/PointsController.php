@@ -2,6 +2,7 @@
 
 namespace App\Admin\Controllers;
 
+use Log;
 use App\Models\Points;
 use App\Models\PointLogs;
 use Encore\Admin\Facades\Admin;
@@ -30,6 +31,7 @@ class PointsController extends AdminController
      */
     protected function grid()
     {
+
         $grid = new Grid(new PointLogs());
 
         $grid->disableActions();
@@ -57,6 +59,11 @@ class PointsController extends AdminController
         });;
         $grid->column('point', __('POINT'));
 
+        // ポイントの合計最新行を取得
+        $grid->tools(function ($tools) {
+            $sumpoints = Points::where('user_id',Admin::user()->id)->latest()->first();
+            $tools->append('現在のポイント:'.$sumpoints->point);
+        });
 
         return $grid;
     }

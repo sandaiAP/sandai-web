@@ -13,8 +13,6 @@ Route::group([
 
     $router->get('/', 'HomeController@index');
     $router->resource('points', PointsController::class);
-    $router->resource('auth/staffs', StaffController::class);
-    $router->resource('auth/customers', CustomerController::class);
     $router->resource('auth/pointlogs', PointLogsController::class);
     $router->get('auth/errors', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 });
