@@ -23,17 +23,6 @@ class PointsController extends AdminController
      */
     protected $title = 'Points';
 
-    public function index(Content $content)
-    {
-
-        $html = "<h3>"."ポイント合計"."</h3>";
-
-        return $content
-            ->header('ポイント')
-            ->description($html)
-            ->body($this->grid());
-    }
-
     /**
      * Make a grid builder.
      *
