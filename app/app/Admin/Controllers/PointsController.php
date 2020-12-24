@@ -65,8 +65,9 @@ class PointsController extends AdminController
 
         // ポイントの合計最新行を取得
         $grid->tools(function ($tools) {
-            $sumpoints = Points::where('user_id',Admin::user()->id)->latest()->first();
-            $tools->append('現在のポイント:'.$sumpoints->point);
+            $points_untreated = PointLogs::getTotal();
+            $sum_points = Points::getTotal();
+            $tools->append('<div style="margin-top:30px;">手続き完了の総額ポイント:'.$sum_points.'</div>'.'<div class="untreatedpoint">申請中のポイント:'.$points_untreated.'</div>');
         });
 
         return $grid;
@@ -107,38 +108,6 @@ class PointsController extends AdminController
         $form->number('point', __('POINT'));
         $form->radio('categories')->options(['deposit' => '入金', 'withdrawal'=> '出金'])->default('deposit');
         $form->hidden('status', 'status')->value('untreated');
-
-        $form->saving(function (Form $form) {
-
-            $points = Points::where('user_id',$form->user_id)->first();
-
-            ### データのnull問題対応ー＞完了
-            $cpoint = is_null($points) ? 0 : $points->point;
-            $formpoint = is_null($form->point) ? 0 : (int) $form->point;
-            $now = Carbon::now();
-
-            // ポイント合計値
-            if( $form->categories == 'deposit' ){
-
-                $sumpoints = $cpoint + $formpoint;
-
-            }elseif($form->categories == 'withdrawal'){
-
-                $sumpoints = $cpoint - $formpoint;
-
-            }else{
-                $sumpoints = 0;
-            }
-
-            // insert
-            Points::create([
-                'user_id' => $form->user_id,
-                'point' => $sumpoints,
-                'created_at' => $now,
-                'updated_at' => $now
-            ]);
-
-        });
 
         return $form;
     }

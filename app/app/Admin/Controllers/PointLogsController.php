@@ -2,12 +2,14 @@
 
 namespace App\Admin\Controllers;
 
+use App\Models\Points;
 use App\Models\PointLogs;
 use Encore\Admin\Facades\Admin;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
 use Encore\Admin\Show;
+use Carbon\Carbon;
 
 class PointLogsController extends AdminController
 {
@@ -93,6 +95,41 @@ class PointLogsController extends AdminController
         $form->number('point', __('POINT'));
         $form->radio('categories')->options(['deposit' => '入金', 'withdrawal'=> '出金'])->default('deposit');
         $form->radio('status')->options(['untreated' => '未処理', 'processed'=> '処理済'])->default('deposit');
+
+        $form->saving(function (Form $form) {
+
+            $points = Points::GetFirst();
+
+            $formpoint = is_null($form->point) ? 0 : (int) $form->point;
+
+            $now = Carbon::now();
+
+            // ポイント合計値
+            if( $form->categories == 'deposit' ){
+
+                $sumpoints = $points + $formpoint;
+
+            }elseif($form->categories == 'withdrawal'){
+
+                $sumpoints = $points - $formpoint;
+
+            }else{
+                $sumpoints = 0;
+            }
+
+            if($form->status == 'processed'){
+
+                // insert
+                Points::create([
+                    'user_id' => $form->user_id,
+                    'point' => $sumpoints,
+                    'created_at' => $now,
+                    'updated_at' => $now
+                ]);
+
+            }
+
+        });
 
         return $form;
     }
