@@ -20,10 +20,10 @@ Route::group([
     $router->resource('contact', ContactController::class);
 
     // //確認ページ
-    // Route::post('/contact/confirm', ContactConfirmController::class);
+    $router->post('/contact/confirm', 'ContactController@confirm' )->name('contact.confirm');
 
     // //送信完了ページ
-    // Route::post('/contact/thanks', ContactThanksController::class);
+    $router->post('/contact/thanks', 'ContactController@thanks')->name('contact.thanks');
 
 });
 
