@@ -17,17 +17,19 @@ class Points extends Model
     public function scopeGetFirst()
     {
         $points = Points::where('user_id',Admin::user()->id)->first();
-        if(is_null($points)){
-            $points->point = 0;
+        $p = $points->point;
+        if(is_null($p)){
+            $p = 0;
         }
-        return $points->point;
+        return $p;
     }
     public function scopeGetTotal()
     {
         $sum_points = Points::where('user_id',Admin::user()->id)->latest()->first();
-        if(is_null($sum_points)){
-            $sum_points->point = 0;
+        $p = $sum_points->point;
+        if(is_null($p)){
+            $p = 0;
         }
-        return $sum_points->point;
+        return $p;
     }
 }
