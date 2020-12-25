@@ -25,6 +25,9 @@ class Points extends Model
     public function scopeGetTotal()
     {
         $sum_points = Points::where('user_id',Admin::user()->id)->latest()->first();
+        if(is_null($points)){
+            $sum_points->point = 0;
+        }
         return $sum_points->point;
     }
 }
