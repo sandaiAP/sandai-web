@@ -67,7 +67,7 @@ class PointsController extends AdminController
         $grid->tools(function ($tools) {
             $points_untreated = PointLogs::getTotal();
             $sum_points = Points::getTotal();
-            $tools->append('<div style="margin-top:30px;">手続き完了の総額ポイント:'.$sum_points.'</div>'.'<div class="untreatedpoint">申請中のポイント:'.$points_untreated.'</div>');
+            $tools->append('<div style="margin-top:30px;">保有ポイント:'.$sum_points.'</div>'.'<div class="untreatedpoint">申請中のポイント:'.$points_untreated.'</div>');
         });
 
         return $grid;

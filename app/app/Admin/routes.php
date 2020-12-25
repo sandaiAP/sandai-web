@@ -15,6 +15,16 @@ Route::group([
     $router->resource('points', PointsController::class);
     $router->resource('auth/pointlogs', PointLogsController::class);
     $router->get('auth/errors', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+
+    //入力ページ
+    $router->resource('contact', ContactController::class);
+
+    // //確認ページ
+    // Route::post('/contact/confirm', ContactConfirmController::class);
+
+    // //送信完了ページ
+    // Route::post('/contact/thanks', ContactThanksController::class);
+
 });
 
 Route::get('image/{filename}', function ($filename)
