@@ -19,11 +19,14 @@ Route::group([
     //入力ページ
     $router->resource('contact', ContactController::class);
 
-    // //確認ページ
+    //確認ページ
     $router->post('/contact/confirm', 'ContactController@confirm' )->name('contact.confirm');
 
-    // //送信完了ページ
+    //送信完了ページ
     $router->post('/contact/thanks', 'ContactController@thanks')->name('contact.thanks');
+
+    // News
+    $router->resource('news', NewsController::class);
 
 });
 
