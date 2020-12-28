@@ -4,7 +4,7 @@
 {!! $email !!}<br>
 <br>
 ■タイトル<br>
-{!! $title !!}<br>
+{!! $name !!}<br>
 <br>
 ■お問い合わせ内容<br>
 {!! nl2br($body) !!}<br>

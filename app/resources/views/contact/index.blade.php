@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="renderer" content="webkit">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ Admin::title() }} @if($header ?? '') | {{ $header ?? '' }}@endif</title>
+    <title>{{ $title }} @if($header ?? '') | {{ $header ?? '' }}@endif</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
@@ -43,7 +43,7 @@
         <div id="app">
             <section class="content-header">
                 <h1>
-                    {!! $header ?? '' ?? '' ?: trans('admin.title') !!}
+                    {!! $header ?? '' ?? '' ?: trans($title) !!}
                     <small>{!! $description ?? '' ?: trans('admin.description') !!}</small>
                 </h1>
 
@@ -78,8 +78,8 @@
                                             <div class="input-group">
                                                 <span class="input-group-addon"><i class="fa fa-pencil fa-fw"></i></span>
                                                 <input
-                                                    name="title"
-                                                    value="{{ old('title') }}"
+                                                    name="name"
+                                                    value="{{ old('name') }}"
                                                     type="text"
                                                     class="form-control">
                                                 @if ($errors->has('name'))
