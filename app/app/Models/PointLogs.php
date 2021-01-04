@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use DB;
 use Illuminate\Database\Eloquent\Model;
 
 class PointLogs extends Model
@@ -19,5 +20,22 @@ class PointLogs extends Model
             $sum_points = 0;
         }
         return $sum_points;
+    }
+    // filter
+    public function scopeGetFilter($query,?array $request)
+    {
+        if($request['id']!=''){
+            $query->where('id','like', $request['id']);
+        }
+
+        if($request['created_at']['start']!=''){
+            $query->where('created_at','>=',$request['created_at']['start']);
+        }
+
+        if($request['created_at']['end']!=''){
+            $query->where('created_at','<=', $request['created_at']['end']);
+        }
+
+        return $query;
     }
 }

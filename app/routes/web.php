@@ -1,4 +1,5 @@
 <?php
+namespace Encore\Admin\Controllers;
 
 use Illuminate\Support\Facades\Route;
 

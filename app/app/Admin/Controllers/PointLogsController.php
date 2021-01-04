@@ -10,6 +10,8 @@ use Encore\Admin\Form;
 use Encore\Admin\Grid;
 use Encore\Admin\Show;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Http\Request;
 
 class PointLogsController extends AdminController
 {
@@ -29,8 +31,21 @@ class PointLogsController extends AdminController
     {
         $grid = new Grid(new PointLogs());
 
-        $grid->column('created_at', __('申請日時'))->date('Y-m-d G:i:s');
-        $grid->column('updated_at', __('更新日時'))->date('Y-m-d G:i:s');
+        $url = app('request')->getRequestUri();
+        $url = parse_url($url, PHP_URL_QUERY);
+        if(!is_null($url) and $url != '_pjax=%23pjax-container'){
+            var_dump($url);
+            parse_str($url, $q);
+            $grid->model()->getFilter($q);
+        }
+
+        $grid->disableExport();
+
+        $grid->column('id', __('ID'));
+        $grid->column('user_id', __('USERID'));
+        $grid->column('point', __('POINT'));
+        $grid->column('created_at', __('CREATED'))->date('Y-m-d H:i:s');
+        $grid->column('updated_at', __('UPDATED'))->date('Y-m-d H:i:s');
         $grid->column('categories', __('CATEGORIES'))->display(function () {
 
             if($this->categories == 'deposit'){
@@ -44,17 +59,23 @@ class PointLogsController extends AdminController
         $grid->column('status', __('STATUS'))->display(function () {
 
             if($this->status == 'untreated'){
-                $r = '申請中';
+                $r = '未処理';
             }
             if($this->status == 'processed'){
-                $r = '手続き完了';
+                $r = '処理済';
             }
             return $r;
         });;
 
-        $grid->column('id', __('ID'));
-        $grid->column('user_id', __('USERID'));
-        $grid->column('point', __('POINT'));
+        // filter
+        $grid->filter(function ($filter) {
+            $filter->column(1/2, function ($filter){
+
+                $filter->disableIdFilter();
+                $filter->like('id', 'ID');
+                $filter->between('created_at', '時間範囲')->date('Y-m-d H:i:s');
+            });
+        });
 
         return $grid;
     }
@@ -93,7 +114,7 @@ class PointLogsController extends AdminController
         $form = new Form(new PointLogs());
         $form->hidden('user_id','USERID')->value($user_id);
         $form->number('point', __('POINT'));
-        $form->radio('categories')->options(['deposit' => '入金', 'withdrawal'=> '出金'])->default('deposit');
+        $form->radio('categories')->options(['deposit' => '入金', 'withdrawal'=> '出勤'])->default('deposit');
         $form->radio('status')->options(['untreated' => '未処理', 'processed'=> '処理済'])->default('deposit');
 
         $form->saving(function (Form $form) {
@@ -104,7 +125,7 @@ class PointLogsController extends AdminController
 
             $now = Carbon::now();
 
-            // ポイント合計値
+            // ¥Ý¥¤¥ó¥ÈºÏÓ‹‚Ž
             if( $form->categories == 'deposit' ){
 
                 $sumpoints = $points + $formpoint;

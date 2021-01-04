@@ -34,13 +34,19 @@ class PointsController extends AdminController
 
         $grid = new Grid(new PointLogs());
 
-        $grid->disableActions();
-        $grid->disableColumnSelector();
+        $url = app('request')->getRequestUri();
+        $url = parse_url($url, PHP_URL_QUERY);
+        if(!is_null($url) and $url != '_pjax=%23pjax-container'){
+            var_dump($url);
+            parse_str($url, $q);
+            $grid->model()->getFilter($q);
+        }
+
         $grid->disableExport();
 
         $grid->column('id', __('ID'));
-        $grid->column('created_at', __('申請日時'))->date('Y-m-d G:i:s');
-        $grid->column('updated_at', __('更新日時'))->date('Y-m-d G:i:s');
+        $grid->column('created_at', __('申請日時'))->date('Y-m-d H:i:s');
+        $grid->column('updated_at', __('更新日時'))->date('Y-m-d H:i:s');
         $grid->column('categories', __('CATEGORIES'))->display(function () {
 
             if($this->categories == 'deposit'){
@@ -68,6 +74,16 @@ class PointsController extends AdminController
             $points_untreated = PointLogs::getTotal();
             $sum_points = Points::getTotal();
             $tools->append('<div style="margin-top:30px;">保有ポイント:'.$sum_points.'</div>'.'<div class="untreatedpoint">申請中のポイント:'.$points_untreated.'</div>');
+        });
+
+        // filter
+        $grid->filter(function ($filter) {
+            $filter->column(1/2, function ($filter){
+
+                $filter->disableIdFilter();
+                $filter->like('id', 'ID');
+                $filter->between('created_at', '登録日時')->date('Y-m-d H:i:s');
+            });
         });
 
         return $grid;

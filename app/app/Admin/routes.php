@@ -4,6 +4,7 @@ use Illuminate\Routing\Router;
 
 Admin::registerAuthRoutes();
 
+
 Route::group([
     'prefix'        => config('admin.route.prefix'),
     'namespace'     => config('admin.route.namespace'),
@@ -14,6 +15,7 @@ Route::group([
     $router->get('/', 'HomeController@index');
     $router->resource('points', PointsController::class);
     $router->resource('auth/pointlogs', PointLogsController::class);
+    $router->get('auth/pointlogs', 'PointLogsController@index');
     $router->get('auth/errors', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 
     //入力ページ
